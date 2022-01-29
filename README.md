@@ -1,3 +1,3 @@
 ### C++ tutorial 
 ####
-1. [GitHub Pages](https://pages.github.com/)
+1. [C Arrays](https://htmlpreview.github.io/?https://github.com/rogard/edu-cpp/blob/master/c_array/doc/html/index.html)
