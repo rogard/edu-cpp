@@ -1,4 +1,5 @@
 //[headers
+#include <iostream> // 2022
 #include <assert.h>
 #include <boost/array.hpp>
 #include <boost/mpl/assert.hpp>
@@ -73,6 +74,8 @@ int main (int argc, char * const argv[]) {
     typedef boost::decay<ar_>::type decay_;
     BOOST_MPL_ASSERT(( boost::is_same<decay_, ptr_> ));
 	//]
+
+    std::cout << "Completed c_array\n";
 
     return 0;
 }
